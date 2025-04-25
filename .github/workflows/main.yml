@@ -1,0 +1,5 @@
+on: push
+name: sm_project
+  production:
+    database_url: "prod.db.server:5432/prod_db"
+    debug: false
